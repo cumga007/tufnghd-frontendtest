@@ -1,0 +1,134 @@
+@media all  and (max-width: 1024px) {
+    .map img {
+        width: 100%;
+    }
+    .vlog-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+ 
+}
+@media all  and (max-width: 980px){
+    .search-advanced {
+        padding: 2rem 2rem;
+    }
+    .results {
+        padding: 2rem 2rem;
+        text-align: center;
+    }
+    .menu-wrapper {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        width: 100%;
+        background: #161616;
+        z-index: 99;
+    }
+    .mobile-nav {
+        display: block;
+        float: right;
+        color: #fff;
+        font-size: 1.5rem;
+        padding: 0.7rem;
+    }
+    .header-top {
+        position: relative;
+    }
+    #main-nav > li, #main-nav > li > a {
+        display: block;
+    }
+    #main-nav > li > a {
+        padding: 1.2rem 0.5rem 1.2rem 1.3rem
+    }
+    nav {
+        float: none;
+    }
+    .user-area {
+        float: none;
+    }
+    #user-nav > li a {
+        padding: 1rem 0.3rem 1rem 1.5rem;
+    }
+    .search-input {
+        width: 70%;
+        margin: 0px auto;
+    }
+    .search-input-location {
+        width: 64%;
+        float: left;
+
+    }
+    .search-input-area {
+        width: 35%;
+        float: right;
+    }
+    .search-input-subtopic, .search-input-topic {
+        width: 100%;
+    }
+    .search-item {
+        margin: 5px 0px;
+    }
+    .footer {
+        text-align: center;
+        padding: 1rem 10rem;
+    }
+    .footer > span {
+        float: none;
+        display: block;
+        
+    }
+    .footer > ul, .footer > span {
+        padding: 0.5rem 0rem;
+    }
+    .footer > ul > li  {
+        margin: 3px 0px;
+    }
+    .footer > ul > li:nth-child(4) {
+        border-right: none;
+    }
+}
+@media all and (max-width: 767px){
+    .vlog-list {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+     
+    .search-input-location, .search-input-area {
+        width: 100%;
+        float: none;
+
+    }
+    .search-items h2 {
+        font-size: 1.8rem;
+    }
+    .search-items h3 {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    .search-items {
+        padding: 5rem 0rem;
+    }
+    #search-wraper {
+        height: 32rem;
+    }
+    .search-advanced {
+        text-align: center;
+    }
+    .search-current-info, .advanced-btn {
+        float: none;
+        text-align: center;
+    }
+    .advanced-btn {
+        display: inline-block;
+    }
+    .footer {
+        padding: 1rem 3rem;
+    }
+    .footer > ul > li:nth-child(4) {
+        border-right: 1px solid #b5b5b5;
+    }
+    .footer > ul > li:nth-child(3), .footer > ul > li:nth-child(5) {
+        border-right: none;
+    }
+}
